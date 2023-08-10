@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    outline:none; border:none;
+
+}
+body{
+    background-color: #eeee;
+}
+
+.main{
+    background-image: url("background5.jpg");
+    background-position: cover;
+    height:70vh;
+    width:100%;
+}
+
+.logo .logo1{
+    color: purple;
+    font-size:40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:pink;
+    padding:25px;
+    box-shadow: 0px 2px 2px 2px pink;
+}
+
+nav .logo{
+    margin-left: 22px;
+    font-size: 34px;
+}
+
+ul{
+    margin-left: -45px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+ul li a{
+    margin-inline: 22px;
+    font-size: 20px;
+}
+ul li i{
+    font-size: 22px;
+}
+ul li #home{
+    color: aqua;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .maintext{
+    
+    margin-top: 100px;
+    line-height: 50px;
+    margin-left:700px;
+}
+
+.maintext h1{
+    font-size: 60px;
+    color:rgb(43, 226, 110);
+    font-weight:150px;
+}
+.maintext h2{
+    font-size: 35px;
+    color:yellowgreen;
+    font-weight:100px;
+    text-align: center;
+}
+
+.maintext h3{
+    font-size: 30px;
+    color:palevioletred;
+    font-weight:40px;
+    text-align: center;
+}
+
+.maintext h4{
+    font-size: 25px;
+    color:blueviolet;
+    text-align: center;
+    font-weight:250px;
+}
+.maintext p{
+    text-align: center;
+    font-size:20px;
+    font-weight:50px;
+}
+
+.maintext button{
+    width: 145px;
+    height: 40px;
+    background-color:olivedrab;
+    border:none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+
+}
+
+.maintext button:hover{
+    border: 2px solid yellow;
+    background-color: yellowgreen;
+    color:rgba(0, 128, 70, 0.678);
+}
+
+.trend .head {
+    text-align: center;
+    padding: 33px;
+    margin-top:5px;
+}
+
+.trends .head h1{
+    text-align: center;
+    padding: 33px;
+    margin-top:5px;
+}
+.head span{
+    color:aqua;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .crd h3{
+    color:blue;
+}
+
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline:12px;
+    padding:18px;
+}
+.crd img{
+    width:90%;
+    padding:18px;
+    border-radius: 35px;
+}
+.crdtext{
+    margin-left: 16px;
+    padding: 8px;
+}
+
+.crdtext button{
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(5,141, 141);
+    color: white;
+    font-size:19px;
+    margin-top: 11px;
+}
+
+.crdtext i{
+    color: orangered;
+}
+
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color:#fff;
+    margin-inline: 22px;
+    border-radius: 11px;
+
+}
+.blog:hover{
+    transition: .6s ease;
+    width: 520px;
+    height:320px;
+}
+
+.blog img{
+    padding: 22px;
+    width: 85%;
+
+}
+.blogtext{
+    padding: 12px;
+    margin-top: 33px;
+}
+
+.blogtext a{
+    width: 120px;
+    padding: 4px;
+    height: 18px;
+    background-color:rgb(5,141, 141);
+    color:white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 22px;
+    position: relative;
+    top: 33px;
+}
+
+.letter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(2,2,77);
+    padding: 43px;
+}
+
+.inp{
+    display: flex;
+}
+.inp input{
+    width: 330px;
+    height:33px;
+    outline: none;
+    font-size: 18px;
+    border: none;}
+
+.inp button{
+    width: 80px;
+    height: 33px;
+    background-color: rgb( 2,173, 173);
+    color: white;
+    border: none;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+}
+.footer .footertext{
+    margin-inline: 85px;
+}
+.footertext p {
+    margin-top: 11px;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #007bff;
+}
+
+
+.aboutus{
+    background-color: pink;
+    color: white;
+    padding:56px;
+    font-size: 22px;
+
+}
+
+.me{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: #fff;
+    padding: 33px;
+    margin-left: 18%;
+    margin-top: 7%;
+
+}
+
+.me img{
+    width: 54%;
+}
+
+.contact{
+    display:none;
+}
+
+.contactus{
+    background-color: pink;
+    color: white;
+    padding:56px;
+    font-size: 19px;
+
+}
+
+.contactme{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin-top: 5%;
+    background-color: #fff;
+
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    display: none;
+
+}
+
+.carttext{
+    padding: 22px;
+    margin-top: 22px;
+
+}
+.carttext p{
+    margin-top:12px;
+}
+.carttext h2{
+    margin-top: 11px;
+}
+
+.carttext .btn button{
+    width:140px;
+    height: 40px;
+    background-color: rgb(255, 89 , 0);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top:22px;
+}
+
+
+.carttext .back{
+    width:140px;
+    height: 40px;
+    background-color: rgb(4, 89 , 81);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top:22px;
+}
+
+
+
+
+
+
+
